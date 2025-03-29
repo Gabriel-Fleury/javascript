@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgreen;
+            
+        }
+        h1{
+            background-color: green;
+            color: rgb(255, 255, 255);
+            width: 200px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste JavaScript</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quod quo doloribus fugit sequi cumque laborum! Amet in sapiente beatae voluptatum dolorum similique, eos corporis iste veritatis asperiores nesciunt doloremque.</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Digite outro numero: ')) /* Number.parseInt = a variavel vai receber o que vinher do prompt convertida em INTEIRO
+       
+                    Number.parseFloat = converte em numero REAL
+
+                    Number = o proprio JS sabe se é real ou inteiro
+       */
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+       /* (number + number) para adiçao
+          (string + string) para concatenaçao */
+    </script>
+</body>
+</html>
