@@ -16,7 +16,16 @@
 ()
 **
 * / %
-+ - */
++ - 
+
+(), **,  /
+ >,  <,  >=
+!
+&&
+||
+
+
+*/
 
 
 
@@ -26,3 +35,24 @@
 var x = 5
 x = x+1    x++
 x = x-1    x-- */
+
+
+/* RELACIONAIS
+
+
+< MENOR QUE
+> MAIOR QUE
+== IGUAL Á
+<= MENOR OU IGUAL
+>= MENOR OU IGUAL
+!= DIFERENTE DE */
+
+
+
+
+
+/* lógicos
+
+! negaçao
+&& conjunçao
+|| disjunçao */
