@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Seu país de origem é: <input type="text" name="txtori" id="txtori">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    <script>
+        function calcular() {
+            var txtori = window.document.getElementById('txtori') // Captura o valor do input
+            var res = window.document.querySelector('div#res') // Seleciona o div para o resultado
+            var origem = txtori.value.toLowerCase() // Converte para minúsculas para evitar erros de comparação
+            
+            res.innerHTML = `<p>Seu país de origem é <strong>${txtori.value}</strong></p>`
+            
+            if (origem === 'brasil') { // Verifica se o país é Brasil
+                res.innerHTML += `<p>Você é brasileiro(a)!</p>`
+            } else { // Caso contrário
+                res.innerHTML += `<p>Você é estrangeiro(a)!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
+
