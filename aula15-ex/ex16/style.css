@@ -24,3 +24,8 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+#res{
+    word-wrap: break-word; /* Quebra linhas automaticamente */
+    overflow: auto; /* Garante que o conteúdo não saia da div */
+}
